@@ -104,6 +104,17 @@
     max-width: 1050px;
     overflow: hidden;
 }
+._build {
+    position: relative;
+    display: flex;
+    flex: none;
+    align-items: left;
+    justify-content: left;
+    width: 270px;
+    height: 280px;
+    overflow: hidden;
+
+}
 @media screen and (max-width: 1095px) {
     .landing-main {
     padding: 58px 52px 110px;
@@ -183,8 +194,8 @@
     flex: none;
     align-items: center;
     justify-content: center;
-    width: 264px;
-    height: 264px;
+    width: 270px;
+    height: 280px;
     overflow: hidden;
 }
 

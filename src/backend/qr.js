@@ -10,20 +10,20 @@ const qrcode = require("qr-image");
 const path = require('path');
 const __Path = path.join(__dirname, '.');
 
-async function Start() {
+async function start() {
     const { version, isLatest } = await fetchLatestBaileysVersion();
     const Ammu = WASocket({printQRInTerminal: false, auth: state, logger: Pino({ level: "silent" }),version: version,browser: ["Keerthana", "Safari", "3.0"]});
     Ammu.ev.on("connection.update", async(up) => { 
         const { lastDisconnect, connection, qr} = up;
         if (qr !== undefined) {
             console.log(qr)
-            qrcode.image(qr,{type: 'png',size: 20}).pipe(fs.createWriteStream(__Path+'/img.png'));}
+            qrcode.image(qr,{type: 'png',size: 9}).pipe(fs.createWriteStream(__Path+'/img.png'));}
  
     });
     Ammu.ev.on("creds.update", saveState);
 };
 
-Start()
+start ();
 //module.exports = {Start}
 
 //<div className="landing-window">
