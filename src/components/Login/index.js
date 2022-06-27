@@ -71,11 +71,9 @@ const Login = () => {
 							</div>
 							<div class="_25pwu">
                         		<div class="_2UwZ_">
-									<img src={`${Qrcode}?${global.Date.now()}`} />
-									
+									<img src={Qrcode} />
                         		</div>
                     		</div>
-							
 						</div>
 					</div>
 				</div>	 
