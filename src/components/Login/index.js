@@ -1,5 +1,5 @@
 import "../../css/Login.css";
-import qrcode from "qr-image";
+//import qrcode from "qr-image";
 import path from'path';
 import React from "react";
 import Qrcode from '../../backend/img.png';
@@ -71,7 +71,8 @@ const Login = () => {
 							</div>
 							<div class="_25pwu">
                         		<div class="_2UwZ_">
-									<img src={Qrcode} />
+									<img src={`${Qrcode}?${global.Date.now()}`} />
+									
                         		</div>
                     		</div>
 							
