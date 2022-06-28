@@ -6,7 +6,3 @@ build/Release
 # jspm_packages/
 App/
 chat/
-index.html
-.env
-qr.html
-sh.sh
