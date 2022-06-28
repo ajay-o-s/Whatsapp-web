@@ -6,3 +6,5 @@ build/Release
 # jspm_packages/
 App/
 chat/
+react/
+tmp/

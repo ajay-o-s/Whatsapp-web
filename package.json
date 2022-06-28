@@ -5,7 +5,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "qr": "supervisor -s src/backend/qr.js",
+    "qr-code": "supervisor -s src/backend/qr.js",
+    "qr": "supervisor -s backend/index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
