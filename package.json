@@ -2,29 +2,9 @@
   "name": "whatsapp",
   "version": "8.0.0",
   "description": "whatsapp beta project",
-  "private": true,
   "main": "index.js",
   "scripts": {
-    "qr-code": "supervisor -s src/backend/qr.js",
-    "qr": "supervisor -s backend/index.js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "push": "gh-pages -d build"
-  },
-  "rules": {
-    "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
-      }
-    ],
-    "react/jsx-uses-react": "off"
+    "start": "supervisor -s backend/index.js"
   },
   "repository": {
     "type": "git",
@@ -34,36 +14,6 @@
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Ajay-o-s/Whatsapp-web/issues"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ],
-    "rules": {
-      "react/react-in-jsx-scope": "off",
-      "react/jsx-filename-extension": [
-        1,
-        {
-          "extensions": [
-            ".js",
-            ".jsx"
-          ]
-        }
-      ]
-    }
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "homepage": "https://github.com/Ajay-o-s/Whatsapp-web#readme",
   "dependencies": {
