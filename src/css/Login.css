@@ -1,6 +1,6 @@
 @media screen and (max-width: 1095px){
     .landing-wrapper, .landing-wrapper {
-        padding-right: 36px;
+        padding-right: 100%;
         padding-left: 36px;
     }
 }
@@ -50,12 +50,12 @@
 
 @media screen and (min-height: 760px) and (min-width: 780px) and (max-width: 1095px) {
     .landing-header {
-        margin-bottom: 68px;
+        margin-bottom: 70px;
     }
 }
 
 .landing-header {
-    margin: 27px auto 28px;
+    margin: 35px auto 28px;
 }
 @media screen and (max-width: 1095px) {
     .landing-header {
